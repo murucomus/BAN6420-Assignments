@@ -20,4 +20,4 @@ Error handling has been implement in the code to address potential issues gracef
 
 Employee's details were exported to a CSV file and saved within a zipped folder named "Employee Profile."
 
-6. Thereafter R has been applied to unzip and display Data
+6. Thereafter R has been applied to unzip and display Data. The utils library has been imported for use in R to help with the unziping and displaying process.
