@@ -1,0 +1,29 @@
+This work has been prepared by Albert Murungi as a submission for an academic assignment to Nexford University and it is solely for academic purposes at this stae. 
+1. #Class Creation
+
+Three (3) separate classes were created for policyholders, products, and payments. Each of the classes was saved as a seperate file. 
+
+The %run command was used to execute the respective files in the main_policydemonstration file where the different classes and methods created were instantiated
+
+2. #Policyholder Management:
+
+Various methods were imolemented to register, suspend, and reactivate policyholders.
+
+3. #Payment Management:
+
+Various methods were also implemented for payment processing, reminders, and penalties.
+
+4. #Product Management:
+
+Additional methods were implemented for creating, updating, and removing/suspending policy products.
+
+5. #Policyholder Demonstration:
+
+Finally at least two policyholders who have paid for one of the products were created and their account details displayed.
+
+6. Error handling techniques were applied using various ways such as use of validation checks with if statements, try, except and finally blocks.
+
+7. The inheritance technique was also utilise to make the code more reusable and extensible. For instance the poliyholders class inherited the person base class attributes
+
+Thank you.
+PS: This work is for academic purposes and should not be relied on for any professional purposes
