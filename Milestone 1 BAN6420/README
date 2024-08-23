@@ -1,9 +1,9 @@
-This work has been prepared by Albert Murungi as a submission for an academic assignment to Nexford University and it is solely for academic purposes at this stae. 
+This work has been prepared by Albert Murungi as a submission for an academic assignment to Nexford University and it is solely for academic purposes at this stage. 
 1. #Class Creation
 
 Three (3) separate classes were created for policyholders, products, and payments. Each of the classes was saved as a seperate file. 
 
-The %run command was used to execute the respective files in the main_policydemonstration file where the different classes and methods created were instantiated
+The %run command was later used to execute the respective files in the main_policydemonstration file where the different class objects and methods created were instantiated
 
 2. #Policyholder Management:
 
