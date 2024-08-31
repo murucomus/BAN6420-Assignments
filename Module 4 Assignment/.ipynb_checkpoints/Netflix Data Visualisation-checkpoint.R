@@ -1,4 +1,6 @@
-# Load applicable libraries
+# Install and Load applicable libraries
+install.packages("fs")
+install.packages("readr")
 library(ggplot2)  # For plotting
 library(dplyr)    # For data manipulation
 library(fs)
