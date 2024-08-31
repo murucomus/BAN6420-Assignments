@@ -1,9 +1,16 @@
-# Install and Load applicable libraries
-install.packages("fs")
-install.packages("readr")
+# Install the applicable libraries
+#install.packages("fs")
+#install.packages("readr")
+#update.packages("fs")
+#install.packages("ggplot2")
+#install.packages("dplyr")
+#install.packages("jsonlite")
+
+
+#Load the required libraries
 library(ggplot2)  # For plotting
 library(dplyr)    # For data manipulation
-library(fs)
+library(fs)         #for file system manipulations
 library(readr)
 
 # Define the base directory and file name
@@ -18,17 +25,11 @@ print(path) # Error checking code
 # Define function to check if file path exists
 is_valid_file_path <- function(file_path) {
   # Check if the path exists and is a file
-  if (file_exists(file_path) && file_info(file_path)$is_file) {
+  if (file.exists(file_path) && !dir.exists(file_path)) {
     return(TRUE)
   } else {
     return(FALSE)
   }
-}
-
-if (is_valid_file_path(path)) {
-  print("This is a valid file path.")
-} else {
-  print("This is not a valid file path.")
 }
 
 
@@ -61,13 +62,8 @@ Netflix_shows_movies <- Netflix_shows_movies %>%
     date_added = ifelse(is.na(date_added), 'unknown', date_added)
   )
 
-# Load necessary libraries
-library(dplyr)
-library(ggplot2)
 
-# Assuming Netflix_shows_movies is your data frame
-
-# Distribution of content ratings (As per requirement in assignment)
+# Data Analysis: Distribution of content ratings (As per requirement in assignment)
 rating_counts <- Netflix_shows_movies %>%
   count(rating) %>%
   arrange(desc(n))
