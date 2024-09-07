@@ -1,4 +1,4 @@
-In this project a number of librararies were used to achieve the assignment including pandas, numpy, scikit-learn, amongst others
+In this project a number of libraries were used to achieve the assignment including pandas, numpy, scikit-learn, amongst others
 Additionally the following were accomplished; 
 #A. I implemented a principle component analysis technique (PCA) using the cancer dataset from sklearn.datasets. This was
 intended to reduce the dimensionality of the data set to make easier for use by the prediction model.
