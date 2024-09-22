@@ -1,0 +1,22 @@
+READ ME
+1. A Flask web application has been created for data collection
+
+2. Using AWS EC2, we have hosted the MongoDB on AWS EC2 instance and accessed it via its public dns address, ie, ec2-54-198-162-4.compute-1.amazonaws.com:27017/
+3. The MongoDB is used to store user data, including the specified details and expense categories.
+5. Once some sample data is added to the MongoDB via the form created, it is extracted into a csv file for processing
+5. A Python class named "User" is then used for data processing user data.
+
+6. We loop through the collected data and store it in a CSV file.
+
+7. The CSV file is then loaded into a Jupyter notebook for data analysis.
+
+8. 2 visualizations have been made from the data and these include;
+#The ages with the highest income.
+#The gender distribution across spending categories
+9. The charts are then saved for use in a presentation using the savefig python function
+
+10. To host the Flask application on AWS- I created an account on AWS, and set up an Ubuntu instance. A public key is created to enable connection to the instance
+- Using the ElasticBeanstalk CLI i make a number of configurations on the AWS instance to ensure our flask applications works well
+- I use ssh to connect to the ubuntu on the EC2 instance on AWS via the provided public IP
+- I install a MongoDB on ubuntu and then make a connection to our application client
+-Tests are made to ensure that the connection to the DB is working well
