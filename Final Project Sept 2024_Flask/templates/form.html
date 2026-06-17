@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Details Form</title>
+</head>
+<body>
+    <h1>Enter your details</h1>
+    <form method="POST" action="{{ url_for('submit') }}">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br>
+
+        <label for="gender">Gender:</label>
+        <input type="text" id="gender" name="gender" required><br>
+
+        <label for="total_income">Total Income:</label>
+        <input type="number" id="total_income" name="total_income" required><br>
+
+        <h3>Expenses:</h3>
+        <label for="utilities">Utilities:</label>
+        <input type="checkbox" id="utilities" name="utilities">
+        <input type="number" id="utilities_amount" name="utilities_amount"><br>
+
+        <label for="entertainment">Entertainment:</label>
+        <input type="checkbox" id="entertainment" name="entertainment">
+        <input type="number" id="entertainment_amount" name="entertainment_amount"><br>
+
+        <label for="school_fees">School Fees:</label>
+        <input type="checkbox" id="school_fees" name="school_fees">
+        <input type="number" id="school_fees_amount" name="school_fees_amount"><br>
+
+        <label for="shopping">Shopping:</label>
+        <input type="checkbox" id="shopping" name="shopping">
+        <input type="number" id="shopping_amount" name="shopping_amount"><br>
+
+        <label for="healthcare">Healthcare:</label>
+        <input type="checkbox" id="healthcare" name="healthcare">
+        <input type="number" id="healthcare_amount" name="healthcare_amount"><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

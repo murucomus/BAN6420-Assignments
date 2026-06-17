@@ -1,0 +1,15 @@
+A dataset containing various attributes on Netflix movies and shows was downloaded and stored
+
+Install the required libraries and packages in both Python and R if they dont already exist. You can uncomment the first sectio fo the 
+code to do that for the R script.
+
+There are 2 scripts of Python and R code that are being used for data manipulation. Some of the libraries that are being used include pandas, matplotlib, seaborn, amongst others
+The data that is being analysed is about movies or content for Netflix
+A number of data related operations have been applied as per assignment to include descriptive statistics as well other statistics on the data
+Thereafter, Python and R have been used to create different graphs as required within the exercise
+
+For thr R script- packages such as ggplot2, fs, dplyr, etc have also been utilised
+
+These packages need to first be installed within the respective development environments
+
+Albert M

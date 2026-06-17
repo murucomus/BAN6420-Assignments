@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Data</title>
+</head>
+<body>
+    <h1>Submitted Data</h1>
+    <p>Name: {{ user.name }}</p>
+    <p>Age: {{ user.age }}</p>
+    <p>Gender: {{ user.gender }}</p>
+    <p>Total Income: {{ user.total_income }}</p>
+    <h3>Expenses</h3>
+    <p>Utilities: {{ user.expenses.utilities }}</p>
+    <p>Entertainment: {{ user.expenses.entertainment }}</p>
+    <p>School Fees: {{ user.expenses.school_fees }}</p>
+    <p>Shopping: {{ user.expenses.shopping }}</p>
+    <p>Healthcare: {{ user.expenses.healthcare }}</p>
+</body>
+</html>

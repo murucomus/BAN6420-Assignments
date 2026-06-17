@@ -1,0 +1,10 @@
+In this project a number of libraries were used to achieve the assignment including pandas, numpy, scikit-learn, amongst others
+Additionally the following were accomplished; 
+#A. I implemented a principle component analysis technique (PCA) using the cancer dataset from sklearn.datasets. This was
+intended to reduce the dimensionality of the data set to make easier for use by the prediction model.
+#B. The breast cancer dataset was therefore reduced into 2 PCA components.
+#C. The data was standardised before feature selection (PCA) and also before being split into a training and testing dataset
+#D. The logistic regression model was trained using standardised data and thereafter the model was tested
+#E. THe logistic regression model was then used to predict between malignant and benign cancer and corresponding class labels for benign and malignant cansers
+#F. The performance of the model was thereafter tested for accuracy and other techniques such as confusion matrix and classification report were also applied to test the level of 
+The model was found to have an accuracy level of 97% and therefore we can expect the prediction model to performs quite well on real life data
